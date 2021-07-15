@@ -1,0 +1,22 @@
+.Image{
+  // width: 90%;
+  position: relative;
+  &_img{
+    margin: auto;
+  }
+  
+  &_comment{
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  &_stories{
+    font-size: 16px;
+    flex-shrink: 0;
+    padding-left: 1rem;
+  }  
+
+  &_paddings{
+    padding-bottom: 100%;
+  }
+}

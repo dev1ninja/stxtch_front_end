@@ -1,0 +1,50 @@
+.Content{
+  &_Content{
+    z-index: 30;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    position: fixed;
+    width: 440px;
+    height: 540px;
+  }
+  &_Title{
+    &_text{
+      font-size: 34px;
+      width: 320px;
+    }
+  }
+  &_Btn{
+    font-size: 18px;
+  }
+  &_btnProperty{
+    height: 135px;
+    width: 335px;
+    letter-spacing: normal;
+  }
+}
+@media (max-width: 874px) {
+  .Content{
+    &_Content{
+      width: 310px;
+      height: 400px;
+    }
+    &_Title{
+      &_text{
+        font-size: 23px;
+        width: 225px;
+      }
+    }
+    &_Btn{
+      font-size: 16px;
+    }
+    &_btnProperty{
+      height: 95px;
+      width: 235px;
+      letter-spacing: normal;
+    }
+  }
+}

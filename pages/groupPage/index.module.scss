@@ -1,0 +1,26 @@
+/* A powerful story can change the world. */
+.GroupPage{
+  // background-color: white;
+  z-index: 1;
+}
+
+.wrapper{
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  margin-top: -8rem;
+  background-color: #F5F5F5;
+  ;
+}
+
+@media (min-width: 874px) {
+  .wrapper{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .wrapper.active{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

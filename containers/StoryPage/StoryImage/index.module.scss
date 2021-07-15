@@ -1,0 +1,30 @@
+.Image{
+  // width: 90%;
+  position: relative;
+  &_img{
+    margin: auto;
+  }
+  
+  &_comment{
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  &_stories{
+    font-size: 18px;
+    flex-shrink: 0;
+    padding-left: 1rem;
+    color: #1E2023;
+    font-family: Neuzeit Grotesk;
+  }  
+}
+
+@media (min-width: 874px) {
+  .Image{
+    min-width: 43vw;
+    min-height: calc(100vh - 215px);
+  }
+  .imageClass{
+    max-height: calc( 100vh - 300px );
+  }
+}

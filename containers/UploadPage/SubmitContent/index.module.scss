@@ -1,0 +1,72 @@
+.Content{
+  &_Content{
+    z-index: 30;
+    border-radius: 5px;
+    box-shadow: 0px 0px 0px 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    position: fixed;
+    width: 440px;
+    height: 540px;
+  }
+  &_Title{
+    &_text{
+      font-size: 34px;
+      width: 320px;
+    }
+  }
+  &_Btn{
+    font-size: 16px;
+  }
+  &_btnProperty{
+    height: 36px;
+    width: 75px;
+    letter-spacing: normal;
+    color: #304A9A !important;
+    border-color: #304A9A !important;
+  }
+  &_common_input{
+    height: 40px;
+    font-size: 25px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: groove;
+  }
+  &_no_outline:focus{
+    outline: none;
+  }
+  &_enter{
+    width: 100px !important;
+    font-size: 12px;
+    border: none !important;
+  }
+}
+@media (max-width: 874px) {
+  .Content{
+    &_Content{
+      width: 310px;
+      height: 400px;
+    }
+    &_Title{
+      &_text{
+        width: 225px;
+        font-size: 23px;
+      }
+    }
+    &_Btn{
+      font-size: 16px;
+    }
+    &_btnProperty{
+      height: 36px;
+      width: 75px;
+      letter-spacing: normal;
+    }
+    &_input_div{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+}

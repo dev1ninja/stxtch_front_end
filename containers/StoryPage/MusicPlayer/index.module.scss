@@ -1,0 +1,29 @@
+.title{
+  font-size: 45px;
+}
+
+.text{
+  font-size: 14px;
+}
+
+.MusicPlayer{
+  border-radius: 1rem;
+  border: none;
+  height: 125px;
+  background-color: #202D56;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  border-radius: 20px 20px 0 0;
+  z-index: 2;
+}
+
+@media (min-width: 874px) {
+  .MusicPlayer{
+    background-color: transparent;
+    color: #202D56;
+    font-size: 18px;
+    position: inherit;
+    height: auto;
+  }
+}

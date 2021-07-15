@@ -1,0 +1,20 @@
+.UploadPage{
+  z-index: 1;
+}
+.title{
+  padding-top: 20px;
+  color: #1E2023;
+  font-size: 35px;
+}
+.screen1{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  background: #CED3E3;
+  z-index: -1;
+}
+@media (min-width: 874px) {
+  
+}

@@ -1,0 +1,130 @@
+body{
+    /* background: #CED3E3; */
+    font-family: Neuzeit Grotesk;
+    background: #F5F5F5;
+}
+
+.divider{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #8a8b8c;
+}
+
+.modal-video-body{
+    max-width: inherit;
+}
+
+.modal-video-movie-wrap{
+    height: 100%;
+}
+
+.modal-video-close-btn{
+    top: 10px;
+    right: 10px;
+}
+
+.border-grey{
+    border-color:#7C7D83
+}
+
+.btn-radius-10{
+    border-radius: 10px !important;
+}
+
+.btn{
+    text-transform: initial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+}
+
+/*****  page1/satistics *******/
+
+
+/******  page1/searchgroup  *****/
+
+.btn_view_all{
+    border-radius: 48px;
+    height: 40px;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    /* background: #1E2023; */
+}
+
+.down_icon{
+    width: 16px;
+    height: 8px;
+    display: inline-block;
+}
+
+.MDBbtn{
+    padding: 0 1rem 0 1rem;
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 0.5rem;
+    margin-bottom: 0.3rem;
+    letter-spacing: 3px;
+    /* padding: 0 10px 0 10px; */
+}
+
+.MDBbtn:focus{
+    outline: none;
+}
+
+.MDBbtn.black{
+    color: #fff;
+    background-color: #1E2023 !important;
+}
+
+.MDBbtn.blue_modal{
+    color: #304A9A;
+    background-color: transparent !important;
+    border: 1px solid #304A9A !important;
+}
+
+.MDBbtn.outline{
+    color: #2e2e2e ;
+    background-color: transparent !important;
+    border: 1px solid #2e2e2e ;
+}
+
+.btn-radius-5{
+    border-radius: 5px;
+}
+
+.btn-radius-10{
+    border-radius: 10px;
+}
+
+.btn-radius-40{
+    border-radius: 40px;
+}
+
+.image-keep-orig{
+    min-width: fit-content;
+}
+
+.custom_scroll::-webkit-scrollbar {
+    height: 5px;
+}
+
+.custom_scroll::-webkit-scrollbar-track {
+    background-color: white;
+    border-radius: 50px;
+}
+
+.custom_scroll::-webkit-scrollbar-thumb {
+    background-color: #1E2023;
+    border-radius: 50px;
+}
+
+.w-max-content{
+    width: max-content;
+}
+
+* {
+    border-color: #8a8b8c;
+}
+  

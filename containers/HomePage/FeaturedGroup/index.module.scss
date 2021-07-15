@@ -1,0 +1,59 @@
+.FeaturedGroup{
+    overflow-x: auto;
+
+}
+
+.title{
+    font-family: Mulish Italic;
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.detail{
+    width: max-content;
+
+    &_text{
+        margin-left: 2rem;
+        margin-right: 1rem;
+        max-width: 370px;
+        font-size: 35px;
+        line-height: 160%;
+        color: #1E2023;
+    }
+}
+
+
+.splitter{
+    height: 140px;
+    border-left: 1px solid #7C7D83;
+    padding-right: 2.5rem;
+    margin-bottom: 3rem;
+    align-self: flex-end;
+}
+
+
+@media (min-width: 874px){
+    .title{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .splitter{
+        height: 200px;
+        padding-right: 4rem;
+        margin-bottom: 0rem;
+    }
+    .image{
+        width: 50vw;
+    }
+    .detail{
+    
+        &_text{
+            font-size: 48px;
+            max-width: 50vw;
+        }
+    }
+}

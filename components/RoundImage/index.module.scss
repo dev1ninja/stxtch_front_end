@@ -1,0 +1,62 @@
+.play{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.wrapper{
+    position: relative;
+    // min-width: fit-content;
+}
+
+.image{
+}
+
+.aspect_container{
+    position: relative;
+    padding-top: 100%;
+}
+.aspect_child{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.icon_fullscren{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    width: max(1.8em, 3%);
+}
+
+.fullscreen{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 3;
+    background: rgb(30,32,35);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.gradient{
+  position: absolute;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(0deg, #000, transparent);
+  bottom: 0;
+}
+
+@media (min-width: 874px) {
+    .fullscreen{
+        // display: none;
+    }
+}
