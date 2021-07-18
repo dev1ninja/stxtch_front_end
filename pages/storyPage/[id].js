@@ -143,17 +143,6 @@ function StoryPage(props) {
   }
   console.log("This is current storyImage", story)
 
-  // For meta info
-/*   const storyTitle = _.get(props, ["data", "stories", 0, "title"]);
-   const storySummary = _.get(props, ["data", "stories", 0, "summary"]);
-  const storyMediaArr = _.get(props, ["data", "stories", "media"], []);
-  const storyImageMedia = storyMediaArr.find((media) => {
-    return media.type === "image"
-  })
-  console.log("storyImageMedia:", storyImageMedia)
-  const storyImageUrl = storyImageMedia ? storyImageMedia.url : "";
-  // const customer = useSelector(state => state.customer)
-  const storyData = props.data.stories;*/
   return (
     <div style={{ backgroundColor: "#CED3E3" }}>
       <Head>
@@ -290,8 +279,6 @@ export async function getServerSideProps(context) {
     fullUrl = window.location.protocol + '//' + window.location.hostname + (window.location.port ? ':' + window.location.port : '')
     hostname = location.hostname
   }
-  // const res = await fetch(`http://${hostname}:8080/story/${context.query.id}`)
-  // const res = await fetch(`http://localhost:8080/story/${context.query.id}`)
   const res = await axios.get(`/api/story/${context.query.id}`)
   console.log("this is response", res.data)
   const data = await res.data;
@@ -316,7 +303,6 @@ export async function getServerSideProps(context) {
     "twitter:image": storyImageUrl
   }
   console.log("This is story response", data);
-  //return { query, data, fullUrl, hostname, metaTags }
   return {
     props: {
       metaTags,

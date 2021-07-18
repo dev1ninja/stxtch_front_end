@@ -60,8 +60,6 @@ function GroupPage() {
 
   let groupCoverMedias;
 
-  // const mediagroup = useSelector(state => state.media.media)
-
   if (group) {
     groupVideos = group.media.filter(media => media.type === "video" && media.groupmedias.isCover)
     groupCoverMedias = group.media.filter(media => media.type === "image" || media.type === "video" && media.groupmedias.featured)

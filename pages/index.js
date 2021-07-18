@@ -63,9 +63,6 @@ function HomePage({ homeStories }) {
         <SearchGroup ref={searchGroup}>
           <FeaturedGroup />
         </SearchGroup>
-        {/* <FeaturedGroup /> */}
-        {/* <div className="divider border-grey"></div> */}
-        {/* <Footer /> */}
       </div>
     </div>
   );
